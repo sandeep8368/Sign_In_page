@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <form action="action_page.php" method="post">
+        <h1 style="background-color: aqua;">Sign In</h1>
+        <p style="background-color: red;">Please fill this form to create an account.</p>
+
+        <div style="background-color: bisque;">
+        <label for="firstname"><b>First Name &nbsp; &nbsp;</b></label>
+        <input type="text" placeholder="Enter first name" name="firstname" required>
+        <br>
+
+        <label for="lastname"><b>Last Name &nbsp; &nbsp;</b></label>
+        <input type="text" name="lastname" placeholder="Enter last name">
+        <br>
+
+
+        <label for="email"><b>Email &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </b></label>
+        <input type="text" placeholder="Enter email" name="Email" required>
+        <br>
+
+        <label for="psw"><b>Password &nbsp; &nbsp; &nbsp;</b></label>
+        <input type="password" placeholder="Enter password" name="psw" required>
+        <br>
+        <label for="gender"><b>Gender</b></label>
+        <input type="radio" id="male" name="gender" value="male">Male
+        <input type="radio" id="female" name="gender" value="female">Female
+        <br>
+        <label for="course"><b>Course</b></label>
+        <input type="checkbox">Python
+        <input type="checkbox">Java
+        <input type="checkbox">Html
+        <br>
+        <label for="city"><b>City</b></label>
+        <select><option value="delhi">Delhi</option><option value="mumbai">Mumbai</option><option value="haryana">Haryana</option></select>
+        
+        <br>
+        </label>
+       
+
+        <button type="submit" >submit</button>
+
+    </div>
+    </form>
+</center>
+</body>
+</html>
